@@ -4824,8 +4824,8 @@ body.visible-sidebar{
 
 .packages-two .lower-data{
   position: relative;
-  top: 150px;
-  margin-top: -150px;
+  /* top: 150px;
+  margin-top: -150px; */
 }
 
 .packages-two .lower-data .d-elem-1{
@@ -4907,7 +4907,7 @@ body.visible-sidebar{
 }
 
 .featured-block-one.alt .over-box{
-  padding: 40px 20px 0 45px;
+  padding: 55px 20px 0 45px;
 }
 
 .featured-block-one .b-title{
@@ -7177,7 +7177,7 @@ body.visible-sidebar{
   border: 1px solid rgba(0, 0, 0, 0.03);
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.07);
   min-height: 325px;
-  padding-left: 360px;
+  padding-left: 500px;
   border-radius: 10px;
 }
 
@@ -7185,7 +7185,7 @@ body.visible-sidebar{
   position: absolute;
   left: 0;
   top: 0;
-  width: 360px;
+  width: 500px;
   height: 100%;
   overflow:hidden;
 }
