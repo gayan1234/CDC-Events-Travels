@@ -915,7 +915,7 @@ form label.error{
 }
 
 .main-header .header-upper{
-  position: absolute;
+  position: relative;
   left: 0;
   top: 12px;
   width: 100%;
@@ -928,14 +928,22 @@ form label.error{
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
 }
+/* Sticky */
+.navbar-brand-img img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Sticky End */
 
 .header-style-two .header-upper{
-  top: 40px;
-  background: #fff;
+  /* top: 40px;
+  background: #fff; */
+  margin: auto;
 }
 
 .header-style-two{
-  position: relative;
+  /* position: relative; */
   min-height: 144px;
 }
 
@@ -1247,7 +1255,7 @@ form label.error{
 .main-menu .navigation > li.current-menu-item > a:after{
   opacity: 1;
   visibility: visible;
-  width: 12px;
+  width: 15px;
 }
 
 .main-menu .navigation > li:hover > a,
@@ -1373,10 +1381,10 @@ body.visible-sidebar{
   bottom: 0;
   width: 100%;
   max-width: 320px;
-  background: #fff;
+  background: #ffffff00;
   padding-top: 60px;
   color: #101010;
-  border-right: 4px solid var(--primary-color);
+  /* border-right: 4px solid var(--primary-color); */
   z-index: 9999;
   visibility: hidden;
   -ms-transform: translateX(-400px);
