@@ -5444,7 +5444,6 @@ body.visible-sidebar{
 .why-us-two .get-help .content-box{
   position: relative;
   padding: 75px 70px 30px 70px;
-  background: var(--tertiary-color);
   border-radius: 10px;
 }
 
@@ -6074,7 +6073,7 @@ body.visible-sidebar{
 }
 
 .insta-section-two .insta-title .insta-user a{
-  color: var(--red-color);
+  color: var(--primary-color);
 }
 
 /*** 
