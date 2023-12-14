@@ -1427,6 +1427,7 @@ body.visible-sidebar{
 
 .hidden-bar .hidden-bar-closer{
   position: absolute;
+  color: white;
   right: -5px;
   top: 0px;
   padding: 14px 20px;
@@ -4195,7 +4196,7 @@ body.visible-sidebar{
   vertical-align: middle;
   width: 100%;
   padding: 70px 0;
-  height: 720px;
+  height: 760px;
   min-height: calc(100vh - 144px);
   z-index: 10;
 }
