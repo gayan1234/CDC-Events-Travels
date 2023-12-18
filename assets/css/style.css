@@ -2570,6 +2570,29 @@ body.visible-sidebar{
   color: #fff;
 }
 
+.skill-card {
+  top: 0px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.295);
+  width: 100%;
+  backdrop-filter: blur(15px);
+  height: 0%;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  z-index: 7;
+}
+
+.skill-title {
+  margin-left: 30px;
+  /* font-size: 28px; */
+  margin-top: 70px;
+  font-weight: bold;
+}
+
+.popular-block:hover .skill-card {
+  height: 100%;
+}
+
 /*** 
 
 ====================================================================
