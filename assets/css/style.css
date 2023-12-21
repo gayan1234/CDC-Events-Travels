@@ -4928,6 +4928,14 @@ body.visible-sidebar{
   opacity: 0.80;
 }
 
+.animation-style {
+  transition: transform 0.4s ease-in-out;
+}
+
+.animation-style:hover {
+  transform: scale(1.05);
+}
+
 .featured-block-one .over-box{
   position: absolute;
   left: 0;
@@ -6110,7 +6118,7 @@ body.visible-sidebar{
 
 .inner-banner{
   position: relative;
-  padding: 140px 0px 140px;
+  padding: 300px 0px 300px;
 }
 
 .inner-banner .image-layer{
