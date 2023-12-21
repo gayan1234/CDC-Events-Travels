@@ -4928,6 +4928,38 @@ body.visible-sidebar{
   opacity: 0.80;
 }
 
+/*  */
+.inner-box img {
+  width: 100%; /* Ensure the image takes up 100% of its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  max-width: 100%; /* Set a maximum width to prevent the image from exceeding its original size */
+  display: block; /* Remove any default inline spacing */
+}
+
+
+.featured-block-one .inner-box {
+  position: relative;
+}
+
+.featured-block-one .inner-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Initial state: fully transparent */
+  transition: background-color 1s ease; /* Add a smooth transition effect */
+  pointer-events: none; /* Allow clicks to go through the overlay to the image */
+  border-radius: 10px;
+}
+
+.featured-block-one .inner-box:hover::after {
+  background-color: rgba(0, 0, 0, 0.3); /* Black color with 50% transparency on hover */
+}
+
+/*  */
+
 .animation-style {
   transition: transform 0.4s ease-in-out;
 }
@@ -4941,7 +4973,7 @@ body.visible-sidebar{
   left: 0;
   top: 0;
   width: 100%;
-  padding: 55px 20px 0 60px;
+  padding: 55px 20px 0 20px;
   color: #fff;
   border-radius: 10px;
 }
